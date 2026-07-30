@@ -1,0 +1,64 @@
+\documentclass[10pt,titlepage]{article}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage{amsmath,amsfonts,amsthm}
+\usepackage{spverbatim}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{pgfplots}
+\usepackage[letterpaper, margin=1.25in]{geometry}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usetikzlibrary{trees}
+
+\lstdefinestyle{mystyle}{
+	keywordstyle=\color{blue},
+	commentstyle=\color{red},
+	stringstyle=\color{violet},
+	basicstyle=\fontsize{12}{12},
+	columns=fullflexible,
+	breaklines=true
+}
+
+\titleformat{\section}
+{\normalfont\Large\bfseries}{\thesection}{1em}{}[{\titlerule[0.8pt]}]
+\lstset{style=mystyle}
+
+\title{Problem Set 1: Threaded Applications}
+
+\author{Abraham Sharum \\\\ \\ Due Date: October 3, 2025 \\ Class: CSE 30003 - Distributed Systems}	
+
+\lstset{style=mystyle}
+
+
+
+\begin{document}
+	\pagestyle{fancy}
+	\fancyhead{}
+	\fancyhead[LE,LO]{\textbf{CSE 30003 - Distributed Systems}}
+	\fancyhead[RO,RE]{\textbf{Threaded Applications}}
+	\fancyfoot{}
+	\fancyfoot[CE,CO]{\textbf{\thepage}}
+	\maketitle
+	
+	
+	\clearpage
+	\section*{Deliverables}
+	
+	\subsection*{PS1.java}
+	\lstinputlisting[language=java]{PS1.java}
+	\clearpage
+	\subsection*{ArraySum.java}
+	\lstinputlisting[language=java]{ArraySum.java}
+	
+	
+	
+	
+	
+	
+	
+	
+\end{document}
